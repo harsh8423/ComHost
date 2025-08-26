@@ -1,0 +1,25 @@
+/* .App {
+  text-align: center;
+} */
+
+
+@import "rsuite/dist/rsuite.css";
+
+
+@import "./base.css";
+
+.gha-feed {
+  --main-bg-col: #fff;
+  --gradient-bg-col: #f4f4f4;
+  --border-col: #ddd;
+  --small-text-col: #666;
+  --time-text-col: #bbb;
+  --link-col: #4183c4;
+  --gh-text-col: #495961;
+}
+
+.doughnut-chart-container {
+  width: 200px; /* Set your desired width */
+  height: 200px; /* Set your desired height */
+  margin: auto;
+}
